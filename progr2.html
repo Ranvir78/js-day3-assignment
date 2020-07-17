@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Student marks</h1>
+    </head>
+    <body>
+        <script>
+            var result;
+            let cc=500;
+            let c;
+            let subject=
+          prompt("number of subjects you have:")
+          if(subject == 4){
+            prompt=console.log("invalid input");
+          }
+          if(subject == 5){
+            subject = confirm("are you sure?");
+          }if(subject == true)
+          {
+           c=prompt("enter your total marks from all subjects you gain from 500:");
+             console.log(+c);
+            result = c / 500*100;
+           console.log(result);
+          }
+        
+             if(result < 40){
+                  console.log("grade f");
+             }
+             else if(result < 60 )
+             {
+                 console.log("grade c");
+             }
+             else if(result < 80 )
+             {
+                 console.log("grade b");
+             }
+            else if(result < 90   ){
+                 console.log("grade a");
+             }
+            else if(result < 100 ){
+                console.log("grade a++");
+            }
+            
+
+        </script>
+    </body>
+</html>
